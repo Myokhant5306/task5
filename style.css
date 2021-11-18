@@ -1,0 +1,42 @@
+body {
+  max-width: 1440px;
+  min-width: 550px;
+  padding-left: 90px;
+  padding-right: 94px;
+  margin: 0;
+  background: #ffffff;
+}
+.navbar {
+  background: #ffffff;
+}
+.navbar-nav {
+  color: black;
+}
+
+.nav-item a,
+.navbar-brand {
+  color: black;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.exit-icon {
+  border: 1px solid #1a1b22;
+  box-sizing: border-box;
+  border-radius: 100px;
+  cursor: pointer;
+  padding: 5px;
+  width: 112px;
+}
+.card-img-overlay {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
